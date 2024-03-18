@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="icon" type="" href="hk.png">
+</head>
+<style>
+body {background-color: rgb(228, 123, 179);
+      
+        }
+.hy {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.sonu{
+    background-color: black; 
+    height: 400px;
+    width: 300px;
+    color: white;
+}
+
+.box{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgb(169, 166, 166);
+    background-color: black;
+    color: white;
+    
+
+}
+
+</style>
+<body>
+ <div class="hy">
+<div class="box">
+    <img src="hk.png" alt="">
+</div>
+     <div style="border-bottom-right-radius: 20px;border-top-right-radius: 20px;" class="sonu">
+    <form action="" method="post" style="padding: 30px; margin-left: 10px; ">
+            <h3>Registration Info
+            </h3>
+            
+            <input type="text" placeholder="NAME" style="text-align: center;"><br><br>
+           
+            <input type="text" placeholder="ADDRESS"><br><br>
+            
+            <input type="number" placeholder="ZIP CODE" required><br><br>
+          
+            <input type="text" placeholder="USER NAME (6-8 CHARACTERS)" required pattern="[a-z]{5-8}"><br><br>
+            <label for="state">State:</label>
+            <select name="" id="" >
+                <option value="">kerala</option>
+                <option value=""> tamilnadu</option>
+                <option value="">goa</option>
+                <option value="">kerala</option>
+            </select><br><br>
+
+            <input type="email" name="" id="" placeholder="e-mail"><br>
+
+            <button style="background-color: rgb(96, 227, 96); color: white; border-radius: 50px ; margin-left: 50px; margin-top: 30px; border: none;">SUBMIT</button>
+        </form>
+   </div>
+ 
+</div> 
+
+
+
+  
+</body>
+</html>
