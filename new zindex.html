@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+      position: relative;
+    }
+    
+    .black-box {
+      position: relative;
+      z-index: 1;
+      border: 2px solid black;
+      height: 100px;
+      margin: 30px;
+    }
+    
+    .gray-box {
+      position: absolute;
+      z-index: 3;
+      background: lightgray;
+      height: 60px;  
+      width: 70%;
+      left: 50px;
+      top: 50px;
+    }
+    
+    .green-box {
+      position: absolute;
+      z-index: 2; 
+      background: lightgreen;
+      width: 35%;
+      left: 270px;
+      top: -15px;
+      height: 100px;
+    }
+
+    .a{
+        position: relative;
+    }
+
+    .b{
+        position: relative;
+        border: 2px solid blue;
+        background: rgb(255, 27, 27);
+        height: 100px;
+        margin: 30px;
+    }
+
+    .c{
+        position:absolute;
+        border: 2px solid blue ;
+        background: rgb(240, 255, 27);
+        height: 60px;  
+        width: 70%;
+        left: 50px;
+        top: 50px;
+        
+    }
+
+    .d{
+
+
+        position:absolute;
+        border: 2px solid rgb(205, 24, 151) ;
+        background-color: azure;
+        width: 45%;
+        left: 270px;
+        top: -15px;
+        height: 100px;
+        
+
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    <div class="container">
+      <div class="black-box">Black box (z-index: 1)</div>
+      <div class="gray-box">Gray box (z-index: 3)</div>
+      <div class="green-box">Green box (z-index: 2)</div>
+    </div>
+    
+    <div class="a">
+        <div class="b">red</div>
+        <div class="c">yellow</div>
+        <div class="d">brown</div>
+      </div>
+      
+</body>
+</html>
